@@ -20,13 +20,7 @@ fn main() {
         String::from("black"),
     ];
 
-    let values = vec![
-        100,
-        63,
-        80,
-        33,
-        412,
-    ];
+    let values = vec![100, 63, 80, 33, 412];
 
     let zip_map: HashMap<String, i32> = keys.into_iter().zip(values.into_iter()).collect();
     println!("zip_map = {:?}", zip_map);
