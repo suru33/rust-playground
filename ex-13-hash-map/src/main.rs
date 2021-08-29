@@ -45,5 +45,21 @@ fn main() {
 
     // update a value
     *m1.get_mut("pink").unwrap() = 0;
+
+    // update a value safe
+    m1.get_mut("pink").map(|f| { *f = -87 });
+
     println!("m1 = {:?}", m1);
+
+    // update a value safe
+    // orange key not found
+    let orange = m1.get_mut("orange");
+    match orange {
+        None => {
+            println!("Orange not found");
+        }
+        Some(value) => {
+            *value = -99;
+        }
+    }
 }
