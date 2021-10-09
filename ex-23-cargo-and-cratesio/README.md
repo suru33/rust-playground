@@ -47,4 +47,4 @@ cargo doc --open
 ```
 
 Doc for simple_math module:
-![img-1](/docs/img-1.png)
+![img-1](/ex-23-cargo-and-cratesio/docs/img-1.png)
