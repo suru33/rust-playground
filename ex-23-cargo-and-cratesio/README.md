@@ -46,5 +46,6 @@ To generate and open documentation
 cargo doc --open
 ```
 
-Doc for simple_math module:
+#### Doc for simple_math module
+
 ![img-1](/ex-23-cargo-and-cratesio/docs/img-1.png)
